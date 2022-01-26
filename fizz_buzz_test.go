@@ -8,7 +8,7 @@ import (
 func TestFizzBuzz(t *testing.T) {
 	for i, tt := range []struct {
 		number   int
-		response interface{}
+		response string
 	}{
 		{
 			18,
@@ -20,7 +20,7 @@ func TestFizzBuzz(t *testing.T) {
 		},
 		{
 			1,
-			1,
+			"1",
 		},
 		{
 			15,
